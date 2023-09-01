@@ -1,0 +1,112 @@
+*{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #d6d6d6;
+    margin: 8px 4px;
+    padding: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+.titulo{
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.titulo::after{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 1px;
+    margin-left: 2%;
+    background-color: rgb(0, 196, 16);
+}
+
+.titulo > img{
+    width: 45px;
+    margin-right: 0.5em;
+}
+
+.parrafo {
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 24px;
+}
+
+#parr1{
+    margin-bottom: 1em;
+}
+
+#parr2{
+    width: auto;
+    display: inline-block;
+}
+
+.caracteristicas{
+    margin: 0 2em;
+}
+
+.caracteristicas__item{
+    margin-bottom: 1.5em;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#logoNodeJs{
+    width: 25%;
+    min-width: 300px;
+}
+
+table{
+    margin: 1.5em auto;
+    border: 1px solid #d6d6d6;
+    padding: 0.5em;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table > thead > tr > th{
+    padding: 0.5em;
+    border: 1px solid #616161;
+    background-color: rgb(228, 228, 228);
+    color: #1f1f1f;
+}
+
+table > tbody > tr:nth-child(even){
+    background-color: #363636e7;
+}
+
+table > tbody > tr:hover{
+    background-color: #414141;
+}
+
+table > tbody > tr > td{
+    padding: 0.5em;
+    border: 1px solid #d6d6d6;
+}
+
+footer{
+    display: flex;
+}
+
+footer > img {
+    width: 80px;
+    margin-right: 0.5em;
+}
+
+footer > div > a{
+    color: #52d640;
+}
+
+footer > div > a:visited{
+    color:rgb(3, 133, 14);
+}
