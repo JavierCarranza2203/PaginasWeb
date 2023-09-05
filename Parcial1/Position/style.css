@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.caja{
+    background-color: rgb(11, 11, 148);
+    display: flex;
+    color: #fff;
+    width: 270px;
+    height: 200px;
+    margin: 5px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja1{
+    position: static;
+}
+
+#caja2{
+    position: relative;
+    left: 270px;
+    background-color: rgb(99, 3, 155);
+}
+
+#caja3{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    background-color: rgb(4, 119, 119);
+}
+
+#caja4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(45, 129, 5);
+}
+
+#caja5{
+    position: sticky;
+    top: 0;
+    background-color: rgb(128, 2, 2);
+}
