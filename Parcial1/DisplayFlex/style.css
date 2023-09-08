@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 100vw;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.caja{
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}

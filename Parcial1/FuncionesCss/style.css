@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.caja{
+    background-color: aquamarine;
+    width: calc((100% / 3) - 10px);
+    height: 150px;
+    margin: 5px;
+    text-align: center;
+    float: left;
+}
