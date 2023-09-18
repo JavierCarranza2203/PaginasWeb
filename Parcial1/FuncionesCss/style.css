@@ -8,9 +8,26 @@
 
 .caja{
     background-color: aquamarine;
-    width: calc((100% / 3) - 10px);
-    height: 150px;
+    width: calc((100% / 2) - 10px);
+    height: 25vh;
     margin: 5px;
     text-align: center;
     float: left;
+    transition: all 0.5s;
+}
+
+#caja1:hover{
+    transform: scale(1.1);
+}
+
+#caja2:hover{
+    transform: rotate(45deg);
+}
+
+#caja3:hover{
+    transform: translateY(30px);
+}
+
+#caja4:hover{
+    transform: matrix(1,2,2,2,2,0);
 }
