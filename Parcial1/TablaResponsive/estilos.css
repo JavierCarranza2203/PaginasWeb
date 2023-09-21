@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #202020;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #202020;
+    padding: 4px;
+}
+
+tr:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+@media screen and (max-width:600px) {
+    table, th, td{
+        display: block;
+        width: calc(100vw - 20px);
+    }
+
+    thead{
+        display: none;
+    }
+
+    td{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    td:nth-child(1){
+        justify-content: center;
+        background-color: rgb(57, 160, 160);
+        color: #fff;
+    }
+
+    td:nth-child(2)::before{
+        content:"Lunes";
+    }
+
+    td:nth-child(3)::before{
+        content:"Martes";
+    }
+
+    td:nth-child(4)::before{
+        content:"Miercoles";
+    }
+
+    td:nth-child(5)::before{
+        content:"Jueves";
+    }
+
+    td:nth-child(6)::before{
+        content:"Viernes";
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 1 | Selectores básicos</title>
+
+    <!--<link rel="stylesheet" href="../style-reset.css">-->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <input type="checkbox" name="theme" id="theme">
+    <label for="theme">Tema claro</label>
+
+    <main id="content">
+      <h1 class="titulo">
+        <img src="nodejs.png" alt="Node js" />¿Qué es NODE JS?
+      </h1>
+
+      <p class="parrafo" id="parr1">
+        Node.js es un entorno de tiempo de ejecución de código abierto basado en
+        el motor V8 de Google Chrome. Permite ejecutar código JavaScript en el
+        lado del servidor, lo que anteriormente solo se realizaba en el navegador
+        web. Node.js está diseñado para ser eficiente y escalable, lo que lo hace
+        ideal para la construcción de aplicaciones web y de red de alto
+        rendimiento.
+      </p>
+
+      <p class="parrafo" id="parr2">
+        Algunas características clave de Node.js incluyen:
+      </p>
+
+      <ul class="caracteristicas">
+        <li class="caracteristicas__item">
+          <b>Arquitectura basada en eventos:</b>Utiliza un modelo de E/S no
+          bloqueante y basado en eventos, lo que significa que puede manejar
+          múltiples solicitudes simultáneamente sin bloquear el flujo de
+          ejecución.
+        </li>
+        <li class="caracteristicas__item">
+          <b>NPM (Node Package Manager):</b>Viene con NPM, un administrador de
+          paquetes que permite a los desarrolladores instalar, compartir y
+          administrar fácilmente bibliotecas y módulos de terceros para sus
+          proyectos.
+        </li>
+        <li class="caracteristicas__item">
+          <b>Aplicaciones en tiempo real:</b>Es ideal para construir aplicaciones
+          en tiempo real, como chats en vivo, juegos multijugador, streaming de
+          datos y otras aplicaciones que requieren una comunicación bidireccional
+          y actualizaciones instantáneas.
+        </li>
+        <li class="caracteristicas__item">
+          <b>JavaScript en ambos lados:</b>Permite a los desarrolladores usar el
+          mismo lenguaje de programación (JavaScript) tanto en el lado del
+          servidor como en el cliente, lo que puede simplificar el desarrollo y la
+          colaboración.
+        </li>
+      </ul>
+
+      <p class="parrafo">
+        Node.js fué ideado como un entorno de ejecución de JavaScript orientado a eventos
+        asíncronos, Node.js está diseñado para crear aplicaciones network
+        escalables. En el siguiente ejemplo de "hola mundo", pueden atenderse
+        muchas conexiones simultáneamente. Por cada conexión, se activa la
+        devolución de llamada o callback, pero si no hay trabajo que hacer,
+        Node.js se dormirá.
+      </p>
+
+      <section class="images">
+        <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js" id="logoNodeJs">
+        <img src="ejemploNodeJs.png" alt="Ejemplo" id="ejemplo">
+      </section>
+    </main>
+  </body>
+</html>
