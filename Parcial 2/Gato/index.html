@@ -10,24 +10,34 @@
 </head>
 <body>
     <div class="contenedor" id="contenedor">
-        <div id="caja1" class="caja">
+        <div id="caja1" class="caja--Lateral">
             <h2>Haga click para limpiar el tablero</h2>
-            <input type="button" value="Limpiar">
+            <input type="button" value="Limpiar" id="btnLimpiar">
         </div>
-        <div id="caja2" class="caja">
-            <h2>Felicidades, ha ganado: <span id="jugador"></span></h2>
-        </div>
+        <div id="caja2" class="caja"></div>
         <div id="caja3" class="caja"></div>
         <div id="caja4" class="caja"></div>
-        <div id="caja5" class="caja"></div>
+        <div id="caja5" class="caja--Lateral">
+            <h2><i class="fa-solid fa-cat"></i></h2>
+        </div>
         <div id="caja6" class="caja"></div>
         <div id="caja7" class="caja"></div>
         <div id="caja8" class="caja"></div>
-        <div id="caja9" class="caja"></div>
+        <div id="caja9" class="caja--Lateral">
+            <h2>Quitar el último movimiento</h2>
+            <input type="button" value="Deshacer" id="btnDeshacer">
+        </div>
         <div id="caja10" class="caja"></div>
         <div id="caja11" class="caja"></div>
         <div id="caja12" class="caja"></div>
     </div>
+
+    <section class="section--hide" id="modalContainer">
+        <div class="section__modal">
+            <h1 id="modalMessage"></h1>
+            <button class="section__button" id="btnReiniciar"><i class="fa-solid fa-arrows-rotate"></i> Volver a jugar</button>
+        </div>
+    </section>
 
     <script src="app.js"></script>
 </body>
