@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+#respuesta{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em auto;
+}
+
+button{
+    background-color: rgb(61, 61, 192);
+    border: 1px solid rgb(61, 61, 192);
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: rgb(41, 41, 107);
+    transition: background-color 0.5s;
+}
