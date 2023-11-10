@@ -38,7 +38,7 @@ button{
     background-color: rgb(61, 61, 192);
     border: 1px solid rgb(61, 61, 192);
     padding: 5px 10px;
-    margin: 0 5px;
+    margin: 0 5px 10px;
     border-radius: 10px;
     color: #fff;
     transition: background-color 0.5s;
