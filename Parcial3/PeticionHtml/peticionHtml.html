@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <button type="button" id="btnPeticion">Peticion</button>
+    </form>
+
+    <script>
+        window.onload = function(){
+            document.getElementById("btnPeticion").addEventListener("click", async () => {
+            try {
+                const response = await fetch('http://localhost:8082');
+                const data = await response.text();
+                console.log(data);
+            } catch (error) {
+                console.error('Error:', error);
+            }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-// import Swal from 'node_modules/sweetalert2';
+// import Swal from 'sweetalert2';
 
 //Variable para el turno
 let marca = "x";
