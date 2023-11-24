@@ -14,8 +14,8 @@
         window.onload = function(){
             document.getElementById("btnPeticion").addEventListener("click", async () => {
             try {
-                const response = await fetch('http://localhost:8082');
-                const data = await response.text();
+                const response = await fetch('http://localhost:8082', {method: "GET"});
+                const data = await response.text(); 
                 console.log(data);
             } catch (error) {
                 console.error('Error:', error);
