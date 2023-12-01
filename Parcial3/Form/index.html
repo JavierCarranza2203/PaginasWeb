@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8571caff0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>     
+<body>
+    <main>
+        <form method="get">
+            <h1>Nuevo cliente</h1>
+            <label for="txtId" class="form__label">Ingrese el nombre:</label>
+            <input type="text" name="txtNombre" id="txtNombre" class="form__textbox">
+
+            <label for="txtId" class="form__label">Ingrese el apellido:</label>
+            <input type="text" name="txtApellido" id="txtApellido" class="form__textbox">
+
+            <label for="txtId" class="form__label">Ingrese el RFC:</label>
+            <input type="text" name="txtRfc" id="txtRfc" class="form__textbox">
+
+            <button type="button" class="form__button" id="btnAgregar">Agregar</button>
+        </form>
+    
+        <div id="wrapper" class="table-container"></div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
